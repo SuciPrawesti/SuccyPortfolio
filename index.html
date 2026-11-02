@@ -1,0 +1,1421 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Galuh Suci Prawesti | Digital Portfolio</title>
+        <link
+            rel="icon"
+            type="image/png"
+            href="./assets/favicon/favicon-96x96.png"
+            sizes="96x96"
+        />
+        <link
+            rel="icon"
+            type="image/svg+xml"
+            href="./assets/favicon/favicon.svg"
+        />
+        <link rel="shortcut icon" href="./assets/favicon/favicon.ico" />
+        <link
+            rel="apple-touch-icon"
+            sizes="180x180"
+            href="./assets/favicon/apple-touch-icon.png"
+        />
+        <meta name="apple-mobile-web-app-title" content="Succy" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <!-- Cosmic Background -->
+        <div class="cosmic-background">
+            <div class="stars" id="stars"></div>
+            <div class="space-dust" id="spaceDust"></div>
+            <div class="glow"></div>
+
+            <!-- Floating Particles -->
+            <div class="floating-particles" id="floatingParticles"></div>
+        </div>
+
+        <!-- Mobile Menu Backdrop -->
+        <div class="mobile-menu-backdrop" id="mobileMenuBackdrop"></div>
+
+        <!-- Navigation -->
+        <nav class="navbar" id="navbar">
+            <div class="logo">Succy</div>
+            <div class="hamburger" id="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="nav-links" id="navLinks">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#art">Digital Art</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+
+        <!-- Premium Loading Screen -->
+        <div class="loading-screen" id="loadingScreen">
+            <div class="stars" id="loadingStars"></div>
+            <div class="space-dust" id="loadingDust"></div>
+
+            <div class="solar-system">
+                <div class="sun">
+                    <div class="sun-core"></div>
+                    <div class="sun-corona"></div>
+                </div>
+
+                <!-- Mercury -->
+                <div class="orbit" id="orbit1">
+                    <div class="planet" id="planet1">
+                        <div class="planet-shadow"></div>
+                        <div class="planet-crater"></div>
+                        <div class="planet-crater"></div>
+                        <div class="planet-crater"></div>
+                    </div>
+                </div>
+
+                <!-- Venus -->
+                <div class="orbit" id="orbit2">
+                    <div class="planet" id="planet2">
+                        <div class="planet-atmosphere"></div>
+                        <div class="planet-cloud"></div>
+                        <div class="planet-cloud"></div>
+                    </div>
+                </div>
+
+                <!-- Earth -->
+                <div class="orbit" id="orbit3">
+                    <div class="planet" id="planet3">
+                        <div class="planet-atmosphere"></div>
+                        <div class="planet-continent"></div>
+                        <div class="planet-continent"></div>
+                        <div class="planet-cloud"></div>
+                    </div>
+                    <div class="moon-orbit">
+                        <div class="moon"></div>
+                    </div>
+                </div>
+
+                <!-- Mars -->
+                <div class="orbit" id="orbit4">
+                    <div class="planet" id="planet4">
+                        <div class="planet-shadow"></div>
+                        <div class="planet-crater"></div>
+                        <div class="planet-crater"></div>
+                        <div class="planet-crater"></div>
+                    </div>
+                </div>
+
+                <!-- Asteroid Belt -->
+                <div class="asteroid-belt">
+                    <div class="asteroid"></div>
+                    <div class="asteroid"></div>
+                    <div class="asteroid"></div>
+                    <div class="asteroid"></div>
+                    <div class="asteroid"></div>
+                </div>
+            </div>
+
+            <div class="loading-countdown" id="loadingCountdown">
+                Initializing cosmic interface...
+            </div>
+
+            <div class="loading-content">
+                <div class="loading-text">Galuh Suci Prawesti</div>
+                <div class="subtext">Loading my digital universe...</div>
+                <div class="loading-bar-container">
+                    <div class="loading-bar">
+                        <div class="loading-progress"></div>
+                    </div>
+                    <div class="loading-percentage" id="loadingPercentage">
+                        0%
+                    </div>
+                </div>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="loading-social-icons">
+                <a
+                    href="https://www.instagram.com/unreach404._?igsh=eG15N2ZrNmxuNDhh"
+                    class="social-icon"
+                    style="--delay: 0.6s"
+                    ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                    href="https://github.com/SuciPrawesti"
+                    class="social-icon"
+                    style="--delay: 0.2s"
+                    ><i class="fab fa-github"></i
+                ></a>
+                <a
+                    href="https://youtube.com/@galuhsuciprawesti4057?si=Z0OrXYv-FKymRoa4"
+                    class="social-icon"
+                    style="--delay: 0.8s"
+                    ><i class="fab fa-youtube"></i
+                ></a>
+            </div>
+        </div>
+        <!-- Main Content -->
+        <div class="content" id="mainContent">
+            <!-- Hero Section -->
+            <section class="section" id="hero">
+                <div class="hero-glow"></div>
+                <div class="hero-content">
+                    <h1>Hello, I'm Galuh Suci Prawesti</h1>
+                    <p>
+                        A passionate web developer and digital artist from SMK
+                        Negeri 3 Kendal. I craft immersive digital experiences
+                        and stunning visual art that blends technology and
+                        creativity.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="explore-button"
+                            >Explore My Work</a
+                        >
+                        <a href="#contact" class="GetTouch-button"
+                            >Get In Touch</a
+                        >
+                    </div>
+                </div>
+            </section>
+
+            <!-- About Section -->
+            <section class="section" id="about">
+                <h2>About Me</h2>
+                <p class="section-subtitle">
+                    The creative mind behind these cosmic creations
+                </p>
+
+                <div class="about-container">
+                    <div class="about-profile">
+                        <div class="profile-image-container">
+                            <img
+                                src="./assets/images/succy.jfif"
+                                alt="Galuh Suci Prawesti"
+                                class="profile-image"
+                            />
+                            <div class="image-glow"></div>
+                            <div class="about-orbit"></div>
+                            <div class="about-orbit about-orbit-2"></div>
+                        </div>
+
+                        <div class="profile-bio">
+                            <p>
+                                I'm passionate about web development and digital
+                                art. I enjoy turning ideas into clean,
+                                responsive websites and creating visuals that
+                                are both creative and impactful.
+                            </p>
+                            <p>
+                                With a strong foundation in software engineering
+                                and a love for visual design, I blend code and
+                                creativity to build digital experiences that
+                                look great and work smoothly. I'm always
+                                exploring new tools and learning to push my
+                                skills further.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="about-details">
+                        <div class="education-card">
+                            <h3>
+                                <i class="fas fa-graduation-cap"></i> Education
+                            </h3>
+                            <div class="education-item">
+                                <div class="edu-header">
+                                    <span class="edu-school"
+                                        >SMK Negeri 3 Kendal</span
+                                    >
+                                    <span class="edu-period"
+                                        >2023 - Present</span
+                                    >
+                                </div>
+                                <div class="edu-details">
+                                    Software Engineering (RPL) - Web Development
+                                    Focus
+                                </div>
+                                <div class="edu-progress">
+                                    <div class="progress-bar">
+                                        <div
+                                            class="progress-fill"
+                                            style="width: 60%"
+                                        ></div>
+                                    </div>
+                                    <span>66% completed</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="skills-section" id="skills">
+                            <h3><i class="fas fa-rocket"></i> My Skills</h3>
+
+                            <div class="skills-category">
+                                <h4>Programming & Database</h4>
+                                <div class="skills-grid">
+                                    <div class="skill-item" data-skill="php">
+                                        <div class="skill-icon">
+                                            <i class="fab fa-php"></i>
+                                        </div>
+                                        <div class="skill-name">PHP</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                    <div class="skill-item" data-skill="mysql">
+                                        <div class="skill-icon">
+                                            <i class="fas fa-database"></i>
+                                        </div>
+                                        <div class="skill-name">MySQL</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-category">
+                                <h4>Web Technologies</h4>
+                                <div class="skills-grid">
+                                    <div class="skill-item" data-skill="html">
+                                        <div class="skill-icon">
+                                            <i class="fab fa-html5"></i>
+                                        </div>
+                                        <div class="skill-name">HTML5</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                    <div class="skill-item" data-skill="css">
+                                        <div class="skill-icon">
+                                            <i class="fab fa-css3-alt"></i>
+                                        </div>
+                                        <div class="skill-name">CSS3</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                    <div
+                                        class="skill-item"
+                                        data-skill="javascript"
+                                    >
+                                        <div class="skill-icon">
+                                            <i class="fab fa-js"></i>
+                                        </div>
+                                        <div class="skill-name">JavaScript</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skills-category">
+                                <h4>Design & Digital Art</h4>
+                                <div class="skills-grid">
+                                    <div class="skill-item" data-skill="figma">
+                                        <div class="skill-icon">
+                                            <i class="fab fa-figma"></i>
+                                        </div>
+                                        <div class="skill-name">Figma</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                    <div class="skill-item" data-skill="canva">
+                                        <div class="skill-icon">
+                                            <i class="fas fa-palette"></i>
+                                        </div>
+                                        <div class="skill-name">Canva</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                    <div
+                                        class="skill-item"
+                                        data-skill="ibispaint"
+                                    >
+                                        <div class="skill-icon">
+                                            <i class="fas fa-paint-brush"></i>
+                                        </div>
+                                        <div class="skill-name">Ibis Paint</div>
+                                        <button class="skill-btn">
+                                            Details
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects Section -->
+            <section class="section projects-section" id="projects">
+                <h2>My Projects</h2>
+                <p>
+                    Discover the technical implementations and creative
+                    solutions behind my work.
+                </p>
+
+                <div class="project-grid">
+                    <!-- Project Card 1 -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img
+                                src="./assets/images/OnyxRide.png"
+                                alt="OnyxRide Project"
+                                class="project-image"
+                                loading="lazy"
+                            />
+                            <div class="project-overlay">
+                                <div
+                                    class="project-corner project-corner-tl"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-tr"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-bl"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-br"
+                                ></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">
+                                    OnyxRide — Smart Fleet Inventory
+                                </h3>
+                                <div class="project-links">
+                                    <a
+                                        href="./project_view/OnyxRide.html"
+                                        class="project-link"
+                                        target="_blank"
+                                        aria-label="View OnyxRide"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                            ></path>
+                                            <polyline
+                                                points="15 3 21 3 21 9"
+                                            ></polyline>
+                                            <line
+                                                x1="10"
+                                                y1="14"
+                                                x2="21"
+                                                y2="3"
+                                            ></line>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://youtu.be/0mRNQa8hy4o?si=3HWdDYgNGH22hN2J"
+                                        class="project-link"
+                                        target="_blank"
+                                        aria-label="Watch OnyxRide demo video"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Web-based inventory management system for
+                                vehicle rental businesses with admin/manager
+                                roles, transaction recording, and reporting.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5/CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="project-highlight"></div>
+                    </div>
+
+              <!-- Project Card - Internship Landing Page 2-->
+              <div class="project-card">
+                  <div class="project-image-container">
+                      <img
+                          src="./assets/images/LandingPageSMKN3Kendal.png"
+                          alt="SMKN 3 Kendal Internship Landing Page"
+                          class="project-image"
+                          loading="lazy"
+                      />
+                      <div class="project-overlay">
+                          <div class="project-corner project-corner-tl"></div>
+                          <div class="project-corner project-corner-tr"></div>
+                          <div class="project-corner project-corner-bl"></div>
+                          <div class="project-corner project-corner-br"></div>
+                      </div>
+                  </div>
+                  <div class="project-content">
+                      <div class="project-header">
+                          <h3 class="project-title">
+                              MagangHub — SMKN 3 Kendal Internship Portal
+                          </h3>
+                          <div class="project-links">
+                              <a
+                                  href="https://landingpagemagangskanega.netlify.app/"
+                                  class="project-link"
+                                  target="_blank"
+                                  aria-label="View Internship Landing Page"
+                              >
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="20"
+                                      height="20"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                  >
+                                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                      <polyline points="15 3 21 3 21 9"></polyline>
+                                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                                  </svg>
+                              </a>
+                              <a
+                                  href="https://github.com/SuciPrawesti"
+                                  class="project-link"
+                                  target="_blank"
+                                  aria-label="View source code on GitHub"
+                              >
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="20"
+                                      height="20"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                  >
+                                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                                  </svg>
+                              </a>
+                          </div>
+                      </div>
+                      <p class="project-description">
+                          Responsive landing page for SMKN 3 Kendal's internship program, featuring modern 
+                          design with intuitive navigation and mobile-first approach.
+                      </p>
+                      <div class="project-tech">
+                          <span class="tech-tag">HTML5</span>
+                          <span class="tech-tag">CSS3</span>
+                          <span class="tech-tag">JavaScript</span>
+                      </div>
+                  </div>
+                  <div class="project-highlight"></div>
+              </div>
+
+                    <!-- Project Card 3 -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img
+                                src="./assets/images/SakuSkanega.png"
+                                alt="SakuSkanega Project"
+                                class="project-image"
+                                loading="lazy"
+                            />
+                            <div class="project-overlay">
+                                <div
+                                    class="project-corner project-corner-tl"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-tr"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-bl"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-br"
+                                ></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">
+                                    SakuSkanega — Savings System
+                                </h3>
+                                <div class="project-links">
+                                    <a
+                                        href="./project_view/SakuSkanega.html"
+                                        class="project-link"
+                                        target="_blank"
+                                        aria-label="View YouNance"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                            ></path>
+                                            <polyline
+                                                points="15 3 21 3 21 9"
+                                            ></polyline>
+                                            <line
+                                                x1="10"
+                                                y1="14"
+                                                x2="21"
+                                                y2="3"
+                                            ></line>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://youtu.be/zD-NELgcVFU?si=Fju15y_MIB-Ab7n0"
+                                        class="project-link"
+                                        target="_blank"
+                                        aria-label="Watch SakuSkanega demo video"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Lightweight web application for school
+                                treasurers to manage cash funds with transaction
+                                history and balance tracking.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML5/CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">Bootstrap</span>
+                                <span class="tech-tag">PHP</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="project-highlight"></div>
+                    </div>
+
+              <!-- Project Card 4 -->
+              <div class="project-card">
+                  <div class="project-image-container">
+                      <img
+                          src="./assets/images/SistemIventarisFlutter.png"
+                          alt="Sistem Iventaris Flutter"
+                          class="project-image"
+                          loading="lazy"
+                      />
+                      <div class="project-overlay">
+                          <div class="project-corner project-corner-tl"></div>
+                          <div class="project-corner project-corner-tr"></div>
+                          <div class="project-corner project-corner-bl"></div>
+                          <div class="project-corner project-corner-br"></div>
+                      </div>
+                  </div>
+                  <div class="project-content">
+                      <div class="project-header">
+                          <h3 class="project-title">
+                              Sistem Iventaris — Flutter Mobile App
+                          </h3>
+                          <div class="project-links">
+                              <a
+                                  href="./project_view/SistemIventarisFlutter.html"
+                                  class="project-link"
+                                  target="_blank"
+                                  aria-label="View Sistem Iventaris Flutter"
+                              >
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="20"
+                                      height="20"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                  >
+                                      <path
+                                          d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                      ></path>
+                                      <polyline
+                                          points="15 3 21 3 21 9"
+                                      ></polyline>
+                                      <line
+                                          x1="10"
+                                          y1="14"
+                                          x2="21"
+                                          y2="3"
+                                      ></line>
+                                  </svg>
+                              </a>
+                              <a
+                                  href="https://youtu.be/0mRNQa8hy4o?si=3HWdDYgNGH22hN2J"
+                                  class="project-link"
+                                  target="_blank"
+                                  aria-label="Watch Sistem Iventaris Flutter demo video"
+                              >
+                                  <svg
+                                      xmlns="http://www.w3.org/2000/svg"
+                                      width="20"
+                                      height="20"
+                                      viewBox="0 0 24 24"
+                                      fill="none"
+                                      stroke="currentColor"
+                                      stroke-width="2"
+                                      stroke-linecap="round"
+                                      stroke-linejoin="round"
+                                  >
+                                      <polygon
+                                          points="23 7 16 12 23 17 23 7"
+                                      ></polygon>
+                                      <rect
+                                          x="1"
+                                          y="5"
+                                          width="15"
+                                          height="14"
+                                          rx="2"
+                                          ry="2"
+                                      ></rect>
+                                  </svg>
+                              </a>
+                          </div>
+                      </div>
+                      <p class="project-description">
+                          Inventory management mobile application built with Flutter, featuring 
+                          item tracking, user management, and real-time data synchronization 
+                          with PHP/MySQL backend.
+                      </p>
+                      <div class="project-tech">
+                          <span class="tech-tag">Flutter</span>
+                          <span class="tech-tag">Dart</span>
+                          <span class="tech-tag">PHP</span>
+                          <span class="tech-tag">MySQL</span>
+                          <span class="tech-tag">REST API</span>
+                      </div>
+                  </div>
+                  <div class="project-highlight"></div>
+              </div>
+                    <!-- Project Card 5 -->
+                    <div class="project-card">
+                        <div class="project-image-container">
+                            <img
+                                src="./assets/images/YouNance.png"
+                                alt="YouNance Project"
+                                class="project-image"
+                                loading="lazy"
+                            />
+                            <div class="project-overlay">
+                                <div
+                                    class="project-corner project-corner-tl"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-tr"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-bl"
+                                ></div>
+                                <div
+                                    class="project-corner project-corner-br"
+                                ></div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">
+                                    YouNance — Savings Management
+                                </h3>
+                                <div class="project-links">
+                                    <a
+                                        href="./project_view/YouNance.html"
+                                        class="project-link"
+                                        target="_blank"
+                                        aria-label="View YouNance"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <path
+                                                d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"
+                                            ></path>
+                                            <polyline
+                                                points="15 3 21 3 21 9"
+                                            ></polyline>
+                                            <line
+                                                x1="10"
+                                                y1="14"
+                                                x2="21"
+                                                y2="3"
+                                            ></line>
+                                        </svg>
+                                    </a>
+                                    <a
+                                        href="https://youtu.be/ALkjr7LFHyk?si=5F2DktzRmR87Z5Kk"
+                                        class="project-link"
+                                        target="_blank"
+                                        aria-label="Watch YouNance demo video"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="20"
+                                            height="20"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        >
+                                            <polygon
+                                                points="23 7 16 12 23 17 23 7"
+                                            ></polygon>
+                                            <rect
+                                                x="1"
+                                                y="5"
+                                                width="15"
+                                                height="14"
+                                                rx="2"
+                                                ry="2"
+                                            ></rect>
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <p class="project-description">
+                                Modern desktop-based savings system with
+                                financial reporting, developed using C# and
+                                Windows Forms with MySQL integration.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">C#</span>
+                                <span class="tech-tag">Windows Forms</span>
+                                <span class="tech-tag">.NET</span>
+                                <span class="tech-tag">Guna UI</span>
+                                <span class="tech-tag">MySQL</span>
+                            </div>
+                        </div>
+                        <div class="project-highlight"></div>
+                    </div>
+                </div>
+            </section>
+            <!-- Figma Projects Section -->
+            <!-- Project 1 -->
+            <section class="section figma-projects" id="figma">
+                <div class="figma-project">
+                    <div class="figma-content">
+                        <div class="figma-img">
+                            <div class="img-container">
+                                <img
+                                    src="./assets/images/YokaiSushi.png"
+                                    alt="Figma Mockup 1"
+                                    class="main-img"
+                                />
+                                <div class="glow-effect"></div>
+                                <div class="pixel-grid"></div>
+                            </div>
+                        </div>
+                        <div class="figma-text">
+                            <div class="title-wrapper">
+                                <h2 class="clean-title">
+                                    YokaiSushi — Sushi Website
+                                </h2>
+                                <div class="title-decoration">
+                                    <div class="title-decoration-inner">
+                                        <span class="decoration-dot"></span>
+                                        <span class="decoration-text"
+                                            >UI UX Design</span
+                                        >
+                                        <span class="decoration-dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                A clean and responsive UI/UX design for a
+                                fictional sushi brand, YokaiSushi, optimized for
+                                desktop and mobile — crafted to deliver a warm,
+                                modern, and authentic Japanese dining
+                                experience.
+                            </p>
+                            <div class="btn-container">
+                                <a
+                                    href="./project_view/YokaiSushi.html"
+                                    target="_blank"
+                                    class="figma-btn"
+                                >
+                                    <span>Lihat Desain Figma</span>
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M5 12H19M19 12L12 5M19 12L12 19"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </a>
+                                <div class="btn-hover-effect"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="figma-project">
+                    <div class="figma-content">
+                        <div class="figma-img">
+                            <div class="img-container">
+                                <img
+                                    src="./assets/images/RamenYume.png"
+                                    alt="Figma Mockup 1"
+                                    class="main-img"
+                                />
+                                <div class="glow-effect"></div>
+                                <div class="pixel-grid"></div>
+                            </div>
+                        </div>
+                        <div class="figma-text">
+                            <div class="title-wrapper">
+                                <h2 class="clean-title">
+                                    RamenYume — Ramen Website
+                                </h2>
+                                <div class="title-decoration">
+                                    <div class="title-decoration-inner">
+                                        <span class="decoration-dot"></span>
+                                        <span class="decoration-text"
+                                            >UI UX Design</span
+                                        >
+                                        <span class="decoration-dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                A clean and responsive website UI/UX for a
+                                fictional ramen shop, designed for both desktop
+                                and mobile. Features include Home, About, Menu,
+                                Testimonial, and Contact pages — all styled to
+                                reflect a cozy, authentic Japanese dining
+                                experience.
+                            </p>
+                            <div class="btn-container">
+                                <a
+                                    href="./project_view/RamenYume.html"
+                                    target="_blank"
+                                    class="figma-btn"
+                                >
+                                    <span>Lihat Desain Figma</span>
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M5 12H19M19 12L12 5M19 12L12 19"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </a>
+                                <div class="btn-hover-effect"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="figma-project">
+                    <div class="figma-content">
+                        <div class="figma-img">
+                            <div class="img-container">
+                                <img
+                                    src="./assets/images/Michio.png"
+                                    alt="Figma Mockup 2"
+                                    class="main-img"
+                                />
+                                <div class="glow-effect"></div>
+                                <div class="pixel-grid"></div>
+                            </div>
+                        </div>
+                        <div class="figma-text">
+                            <div class="title-wrapper">
+                                <h2 class="clean-title">Michio — Comic App</h2>
+                                <div class="title-decoration">
+                                    <div class="title-decoration-inner">
+                                        <span class="decoration-dot"></span>
+                                        <span class="decoration-text"
+                                            >UI UX Design</span
+                                        >
+                                        <span class="decoration-dot"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>
+                                A modern comic reader app UI/UX with a fresh
+                                pastel color palette. Designed for a smooth
+                                reading experience and youthful vibe, Michio
+                                focuses on clean layouts, intuitive navigation,
+                                and visual appeal for Gen Z readers.
+                            </p>
+                            <div class="btn-container">
+                                <a
+                                    href="./project_view/Michio.html"
+                                    target="_blank"
+                                    class="figma-btn"
+                                >
+                                    <span>Lihat Desain Figma</span>
+                                    <svg
+                                        width="24"
+                                        height="24"
+                                        viewBox="0 0 24 24"
+                                        fill="none"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                    >
+                                        <path
+                                            d="M5 12H19M19 12L12 5M19 12L12 19"
+                                            stroke="currentColor"
+                                            stroke-width="2"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                        />
+                                    </svg>
+                                </a>
+                                <div class="btn-hover-effect"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Digital Art Section -->
+            <section class="section" id="art">
+                <h2>Digital Art Gallery</h2>
+                <p>
+                    My creative expressions through digital illustrations
+                    created with IbisPaint and other digital tools.
+                </p>
+
+                <div class="art-grid">
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/LunaSynesthesia.png"
+                            alt="Digital Art 1"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Luna Synesthesia</h3>
+                            <div class="art-date">
+                                Created: February 12, 2025
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/SolsticeReverie.png"
+                            alt="Digital Art 2"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Solstice Reverie</h3>
+                            <div class="art-date">Created: October 17, 2024</div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/Stillness_inDusk.png"
+                            alt="Digital Art 3"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Stillness in Dusk</h3>
+                            <div class="art-date">
+                                Created: December 10, 2024
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/Astrielle_Nocturne.png"
+                            alt="Digital Art 4"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Astrielle Nocturne</h3>
+                            <div class="art-date">Created: May 9, 2024</div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/VelourSonata.png"
+                            alt="Digital Art 4"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Velour Sonata</h3>
+                            <div class="art-date">Created: July 7, 2023</div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/Mr. Faceless Enigma.png"
+                            alt="Digital Art 4"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Mr. Faceless Enigma</h3>
+                            <div class="art-date">Created: July 27, 2025</div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/ElionVanta.png"
+                            alt="Digital Art 4"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Elion Vanta</h3>
+                            <div class="art-date">Created: June 29, 2023</div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/SakuranoNamida.png"
+                            alt="Digital Art 4"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Sakura no Namida</h3>
+                            <div class="art-date">Created: May 5, 2023</div>
+                        </div>
+                    </div>
+
+                    <div class="art-card">
+                        <img
+                            src="./assets/images/SigmaBoy.png"
+                            alt="Digital Art 4"
+                            class="art-image"
+                        />
+                        <div class="art-overlay">
+                            <h3 class="art-title">Sigma Boy</h3>
+                            <div class="art-date">Created: March 20, 2024</div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Skill Modal -->
+            <div class="modal" id="skillModal">
+                <div class="modal-content">
+                    <span class="close-modal">&times;</span>
+                    <div class="modal-header">
+                        <div class="modal-icon">
+                            <i class="modal-icon-inner"></i>
+                        </div>
+                        <h3 class="modal-title"></h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="modal-description"></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Section -->
+            <section class="section contact-section" id="contact">
+                <h2>Get In Touch</h2>
+                <p>
+                    Interested in my work or want to discuss potential
+                    opportunities? I'd love to hear from you!
+                </p>
+
+                <!-- Success Notification -->
+                <div class="form-notification" id="notification">
+                    <div class="notification-content">
+                        <div class="check-icon">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                            >
+                                <path d="M20 6L9 17l-5-5"></path>
+                            </svg>
+                        </div>
+                        <div class="notification-text">
+                            <h3>Message Sent</h3>
+                            <p>
+                                Thank you for reaching out. I'll respond soon.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-container">
+                    <!-- Contact Info -->
+                    <div class="contact-info">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"
+                                    ></path>
+                                    <polyline
+                                        points="22,6 12,13 2,6"
+                                    ></polyline>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h3>Email</h3>
+                                <a
+                                    href="mailto:suciprawestigaluh@gmail.com"
+                                    class="method-link"
+                                    >suciprawestigaluh@gmail.com</a
+                                >
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                                    ></path>
+                                </svg>
+                            </div>
+                            <div class="method-content">
+                                <h3>WhatsApp</h3>
+                                <div class="qr-wrapper">
+                                    <img
+                                        src="./assets/images/whatsapp_qr.png"
+                                        alt="WhatsApp QR Code"
+                                        class="qr-code"
+                                    />
+                                </div>
+                                <div class="whatsapp-button-container">
+                                    <a
+                                        href="https://wa.me/6283850511528"
+                                        class="whatsapp-button"
+                                    >
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 24 24"
+                                            fill="none"
+                                            stroke="currentColor"
+                                        >
+                                            <path
+                                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                                            ></path>
+                                        </svg>
+                                        Message Me
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Contact Form -->
+                    <form
+                        class="contact-form"
+                        id="contactForm"
+                        action="https://api.web3forms.com/submit"
+                        method="POST"
+                    >
+                        <input
+                            type="hidden"
+                            name="access_key"
+                            value="7a686276-01bd-44b8-bd8b-ece33be78f19"
+                        />
+
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required />
+                            <label for="name">Your Name</label>
+                            <div class="underline"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            />
+                            <label for="email">Your Email Address</label>
+                            <div class="underline"></div>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="4"
+                                required
+                            ></textarea>
+                            <label for="message">Your Message</label>
+                            <div class="underline"></div>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span>Send Message</span>
+                            <div class="arrow-icon">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                >
+                                    <line x1="5" y1="12" x2="19" y2="12"></line>
+                                    <polyline
+                                        points="12 5 19 12 12 19"
+                                    ></polyline>
+                                </svg>
+                            </div>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="planet-blur"></div>
+
+                <div class="social-links">
+                    <a
+                        href="https://www.instagram.com/unreach404._?igsh=eG15N2ZrNmxuNDhh"
+                        class="social-link"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                    <a
+                        href="https://github.com/SuciPrawesti"
+                        class="social-link"
+                        ><i class="fab fa-github"></i
+                    ></a>
+                    <a
+                        href="https://youtube.com/@galuhsuciprawesti4057?si=Z0OrXYv-FKymRoa4"
+                        class="social-link"
+                        ><i class="fab fa-youtube"></i
+                    ></a>
+                    <a href="https://wa.me/6283850511528" class="social-link"
+                        ><i class="fab fa-whatsapp"></i
+                    ></a>
+                </div>
+
+                <div class="copyright">
+                    &copy; 2025 Galuh Suci Prawesti. All rights reserved.
+                </div>
+            </footer>
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator" id="scrollIndicator">
+                <span class="scroll-text">Scroll Down</span>
+                <i class="fas fa-chevron-down scroll-icon"></i>
+            </div>
+
+            <!-- Back to Top Button -->
+            <div class="back-to-top" id="backToTop">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        </div>
+
+        <script src="./js/script.js"></script>
+    </body>
+</html>

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Coming Soon</title>
+        <link rel="icon" href="../favicon.ico" type="image/x-icon" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            :root {
+                --space-dark: #0a0118;
+                --space-purple: #2a1051;
+                --space-blue: #1a237e;
+                --space-teal: #00e5ff;
+                --text-primary: #f8fafc;
+                --text-secondary: #e2e8f0;
+            }
+
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            body {
+                min-height: 100vh;
+                background: var(--space-dark);
+                color: var(--text-primary);
+                font-family: "Poppins", sans-serif;
+                overflow-x: hidden;
+                line-height: 1.6;
+            }
+
+            /* Cosmic background */
+            .cosmic-bg {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -1;
+                background: radial-gradient(
+                        circle at 20% 30%,
+                        var(--space-purple),
+                        transparent 70%
+                    ),
+                    linear-gradient(
+                        to bottom,
+                        var(--space-dark),
+                        var(--space-blue)
+                    );
+            }
+
+            /* Stars effect */
+            .stars {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+            }
+
+            .star {
+                position: absolute;
+                background-color: var(--text-primary);
+                border-radius: 50%;
+                animation: twinkle 3s infinite ease-in-out;
+            }
+
+            @keyframes twinkle {
+                0%,
+                100% {
+                    opacity: 0.3;
+                }
+                50% {
+                    opacity: 0.8;
+                }
+            }
+
+            /* Main content */
+            .coming-soon {
+                min-height: 100vh;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 2rem;
+                text-align: center;
+                position: relative;
+                z-index: 10;
+            }
+
+            .illustration {
+                font-size: 6rem;
+                margin-bottom: 2rem;
+                color: var(--space-teal);
+                animation: float 4s ease-in-out infinite;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+                font-weight: 500;
+                margin-bottom: 1rem;
+                background: linear-gradient(
+                    90deg,
+                    var(--text-primary),
+                    var(--space-teal)
+                );
+                -webkit-background-clip: text;
+                background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+
+            .subtitle {
+                font-size: 1.1rem;
+                color: var(--text-secondary);
+                max-width: 500px;
+            }
+
+            /* Animations */
+            @keyframes float {
+                0%,
+                100% {
+                    transform: translateY(0);
+                }
+                50% {
+                    transform: translateY(-15px);
+                }
+            }
+
+            /* Responsive adjustments */
+            @media (max-width: 768px) {
+                h1 {
+                    font-size: 2rem;
+                }
+
+                .illustration {
+                    font-size: 4rem;
+                }
+
+                .subtitle {
+                    font-size: 1rem;
+                }
+            }
+
+            @media (max-width: 480px) {
+                h1 {
+                    font-size: 1.8rem;
+                }
+
+                .illustration {
+                    font-size: 3.5rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="cosmic-bg">
+            <div class="stars" id="stars"></div>
+        </div>
+
+        <main class="coming-soon">
+            <div class="illustration">
+                <i class="fas fa-rocket"></i>
+            </div>
+
+            <h1>Coming Soon</h1>
+
+            <p class="subtitle">
+                I'm currently developing something extraordinary just for you.
+                Stay tuned — the launch is coming soon.
+            </p>
+        </main>
+
+        <script>
+            // Create stars
+            function createStars(containerId, count = 100) {
+                const container = document.getElementById(containerId);
+                for (let i = 0; i < count; i++) {
+                    const star = document.createElement("div");
+                    star.classList.add("star");
+
+                    // Random size between 1-3px
+                    const size = Math.random() * 2 + 1;
+                    star.style.width = `${size}px`;
+                    star.style.height = `${size}px`;
+
+                    // Random position
+                    star.style.left = `${Math.random() * 100}%`;
+                    star.style.top = `${Math.random() * 100}%`;
+
+                    // Random animation duration and delay
+                    const duration = Math.random() * 3 + 2;
+                    star.style.animationDuration = `${duration}s`;
+                    star.style.animationDelay = `${Math.random() * 5}s`;
+
+                    container.appendChild(star);
+                }
+            }
+
+            // Initialize
+            document.addEventListener("DOMContentLoaded", () => {
+                createStars("stars");
+            });
+        </script>
+    </body>
+</html>
